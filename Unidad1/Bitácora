@@ -1,1 +1,31 @@
+setcpm(140/4)
 
+let capa1 = s("[bd bd] sd [hh hh hh] oh").bank("RolandTr909")
+let capa2 = s("bd [sd sd] hh oh").bank("RolandTr909")
+let capa3 = s("hh*4")
+let capa4 = stack(
+s("[bd bd] sd [hh hh hh] oh").bank("RolandTr909"),
+s("hh*4")
+)
+
+let capaDAN = stack(
+  s("oh").beat("3,7,11,15",16),
+  s("hh").beat("0,1,2,3,4,8,9,10,11",16),
+  s("cp").beat("2,6,10,14",16),
+  s("bd").beat("0,1,4,5,8,9,12,13",16) 
+) 
+
+$:capaDAN
+
+let melody = note("[a4 ~ e5 d5 c5 b4 ~ a4  e4 ~ b4 c5 d5 e5 ~ ~]")
+  .sound("piano")
+  .legato(1);
+
+let harmony = note("<[f3,a3,c4,e4] [g3,b3,d4,a4] [e3,g3,b3,d4] [a3,c4,e4,b4]>")
+  .sound("piano")
+  .attack(slider(0.1, 0, 1)) // Un ataque un poco más rápido para que tenga fuerza con el beat
+  .lpf(slider(1600, 300, 2000))
+  .room(2);
+
+$melody: melody
+$harmony: harmony
