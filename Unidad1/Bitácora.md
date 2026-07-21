@@ -61,12 +61,12 @@ let harmony = note("<[f3,a3,c4,e4] [g3,b3,d4,a4] [e3,g3,b3,d4] [a3,c4,e4,b4]>")
 $melody: melody$harmony: harmony
 ```
 
-## 2.3. Errores Encontrados y Soluciones
+### 2.3. Errores Encontrados y Soluciones
 
 Durante la programación de la base rítmica, específicamente en la `capaDAN`, tuve un inconveniente al utilizar la función `.beat()`. Al principio, el código se saltaba notas y el patrón rítmico no sonaba como lo había planeado.
 Al revisar el código junto con el profesor, nos dimos cuenta de que el problema era un error de sintaxis: me había faltado colocar las comas (`,`) dentro del string que define las posiciones de los golpes en la subdivisión (por ejemplo, escribía `s("hh").beat("0 1 2 3...",16)` en lugar de `s("hh").beat("0,1,2,3...",16)`). Al corregir la sintaxis y añadir las comas correspondientes, la secuencia de 16 pasos se leyó correctamente y el ritmo se sincronizó a la perfección.
 
-## 2.4. Evidencias del Resultado
+### 2.4. Evidencias del Resultado
 
 Enlace al código: [Strudel](https://strudel.cc/#c2V0Y3BtKDE0MC80KQoKbGV0IGNhcGExID0gcygiW2JkIGJkXSBzZCBbaGggaGggaGhdIG9oIikuYmFuaygiUm9sYW5kVHI5MDkiKQpsZXQgY2FwYTIgPSBzKCJiZCBbc2Qgc2RdIGhoIG9oIikuYmFuaygiUm9sYW5kVHI5MDkiKQpsZXQgY2FwYTMgPSBzKCJoaCo0IikKbGV0IGNhcGE0ID0gc3RhY2soCnMoIltiZCBiZF0gc2QgW2hoIGhoIGhoXSBvaCIpLmJhbmsoIlJvbGFuZFRyOTA5IiksCnMoImhoKjQiKQopCgpsZXQgY2FwYURBTiA9IHN0YWNrKAogIHMoIm9oIikuYmVhdCgiMyw3LDExLDE1IiwxNiksCiAgcygiaGgiKS5iZWF0KCIwLDEsMiwzLDQsOCw5LDEwLDExIiwxNiksCiAgcygiY3AiKS5iZWF0KCIyLDYsMTAsMTQiLDE2KSwKICBzKCJiZCIpLmJlYXQoIjAsMSw0LDUsOCw5LDEyLDEzIiwxNikgCikgCgokOmNhcGFEQU4KCmxldCBtZWxvZHkgPSBub3RlKCJbYTQgfiBlNSBkNSBjNSBiNCB%2BIGE0ICBlNCB%2BIGI0IGM1IGQ1IGU1IH4gfl0iKQogIC5zb3VuZCgicGlhbm8iKQogIC5sZWdhdG8oMSk7CgpsZXQgaGFybW9ueSA9IG5vdGUoIjxbZjMsYTMsYzQsZTRdIFtnMyxiMyxkNCxhNF0gW2UzLGczLGIzLGQ0XSBbYTMsYzQsZTQsYjRdPiIpCiAgLnNvdW5kKCJwaWFubyIpCiAgLmF0dGFjayhzbGlkZXIoMC4xLCAwLCAxKSkgLy8gVW4gYXRhcXVlIHVuIHBvY28gbcOhcyByw6FwaWRvIHBhcmEgcXVlIHRlbmdhIGZ1ZXJ6YSBjb24gZWwgYmVhdAogIC5scGYoc2xpZGVyKDE2MDAsIDMwMCwgMjAwMCkpCiAgLnJvb20oMik7CgokbWVsb2R5OiBtZWxvZHkKJGhhcm1vbnk6IGhhcm1vbnk%3D)
 
