@@ -57,3 +57,34 @@ Uno de los conceptos que más me llamó la atención fue el modelo de datos. Me 
 Personalmente siento que trabajar con nodos ofrece muchas ventajas frente a programar todo desde código. Me parece una forma mucho más visual y organizada de construir un sistema, ya que puedo seguir fácilmente el recorrido de la información: de dónde vienen los datos, cómo se procesan y cuál es el resultado que producen. Esa representación gráfica hace que experimentar sea más natural y menos intimidante, especialmente cuando los proyectos comienzan a crecer.
 
 También creo que TouchDesigner puede abrir muchas posibilidades dentro del UX/UI. Probablemente no todas las interfaces necesiten una experiencia creada con esta herramienta, pero justamente ahí está lo interesante: perder el miedo a experimentar. Dependiendo del contexto, podría utilizarse para instalaciones, exhibiciones, experiencias inmersivas o proyectos donde la interacción vaya mucho más allá de una interfaz tradicional. Considero que explorar este tipo de herramientas es una oportunidad para descubrir nuevas formas de diseñar experiencias que sorprendan a los usuarios.
+
+
+## Construcción de un sistema visual generativo en TouchDesigner
+
+### Exploración del sistema visual
+
+Durante esta actividad construí un sistema visual generativo utilizando TouchDesigner, donde el objetivo principal no era crear una imagen única, sino entender cómo una serie de reglas y parámetros pueden producir diferentes comportamientos visuales.
+
+Al experimentar con los controles del sistema y añadir algunos LFOs para modificar los valores automáticamente, logré crear un efecto que me recordaba a un agujero negro: una especie de campo que se expandía y contraía constantemente, generando una sensación de atracción y movimiento. Después continué explorando la parte visual modificando los colores y creando una inversión cromática cuando el sistema alcanzaba ciertos momentos de su comportamiento, haciendo que la experiencia cambiara sin perder la identidad inicial.
+
+Lo interesante de este proceso fue entender que el resultado no estaba completamente definido desde el inicio. En lugar de diseñar directamente la forma final, estaba diseñando las condiciones que permitían que la forma apareciera.
+
+### Parámetros y experimentación
+
+El elemento que más llamó mi atención fueron los LFOs, ya que permitieron transformar parámetros estáticos en comportamientos dinámicos. Esto me llevó a pensar más en las relaciones matemáticas detrás del movimiento y en cómo pequeñas variaciones dentro de una fórmula pueden cambiar completamente la percepción del resultado.
+
+Aunque al principio las expresiones matemáticas fueron una de las partes más complejas, también fueron una de las más interesantes porque mostraban cómo una operación aparentemente simple podía convertirse en una transformación visual mucho más compleja.
+
+### Relación con el diseño generativo
+
+Esta actividad fue una aplicación directa de la mentalidad generativa vista anteriormente. La intención inicial era generar una experiencia visual dinámica, pero para lograrlo no fue necesario construir cada detalle manualmente. Fue necesario definir entidades, relaciones y reglas que permitieran al sistema evolucionar.
+
+En este caso, la entidad principal eran los campos generados por ruido, mientras que las relaciones estaban dadas por la deformación, el movimiento, el color y la interacción entre parámetros. Los resultados visuales eran simplemente una consecuencia del sistema creado.
+
+Esto me ayudó a entender que el diseñador generativo no necesariamente crea una obra terminada, sino que crea un conjunto de posibilidades. La creatividad está en decidir qué reglas existen, qué elementos permanecen constantes y qué aspectos pueden cambiar.
+
+### Reflexión personal
+
+Una de las mayores dificultades fue pasar de imaginar una idea visual en mi cabeza a encontrar la forma de construirla mediante parámetros y fórmulas. Muchas veces uno tiene una imagen mental del resultado, pero convertir esa intención en reglas concretas requiere otro tipo de pensamiento más lógico y experimental.
+
+Como siguiente paso, me gustaría explorar mucho más la relación entre sonido y visuales generativas. Considero que combinar los campos de ruido con audio podría generar experiencias mucho más inmersivas, donde la música controle directamente el comportamiento del sistema y permita crear visuales únicos para cada momento.
